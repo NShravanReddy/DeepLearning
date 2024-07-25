@@ -1,0 +1,2 @@
+[console_scripts]
+micrograd = micrograd.engine:Value

@@ -1,9 +1,11 @@
 README.md
 setup.py
 micrograd/__init__.py
+micrograd/check.py
 micrograd/engine.py
 micrograd/neuralnetwork.py
 micrograd.egg-info/PKG-INFO
 micrograd.egg-info/SOURCES.txt
 micrograd.egg-info/dependency_links.txt
+micrograd.egg-info/entry_points.txt
 micrograd.egg-info/top_level.txt
