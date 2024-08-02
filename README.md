@@ -26,7 +26,6 @@ d=a.__mul__(b)
 # _ python
 
 Certainly! Here's a concise summary of why `_s` (or variables prefixed with a single underscore) is commonly used, without the actual code implementation:
-
 1. **Signaling Internal Use**: `_s` signals that the variable is intended for internal use within a module or class, distinguishing it from the public interface.
 2. **Encapsulation**: Encourages encapsulation by suggesting that `_s` should be accessed or modified through defined methods or properties, rather than directly.
 3. **Preventing Name Clashes**: Reduces the likelihood of naming conflicts with external libraries or modules.
