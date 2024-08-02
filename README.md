@@ -61,7 +61,7 @@ For unsupervised learning Auto encoders are used in Convolution neural networks
 
 ### LLms
 
-Installing LLMs on the command line APPLICATIONS
+[Installing LLMs on the command line APPLICATIONS](https://parlance-labs.com/education/applications/simon_llm_cli/index.html)
 
 [llm](https://pypi.org/project/llm/)
 
@@ -130,3 +130,10 @@ llm llama-cpp download-model \
 
   # Installing [Ollama](https://ollama.com/download/linux)
   curl -fsSL https://ollama.com/install.sh | sh 
+
+Terminal 1 : ollama serve
+
+Terminal 2L: ollama run phi3
+
+
+  cat README.md | llm -s 'create code snippert for readme' >test1.md
