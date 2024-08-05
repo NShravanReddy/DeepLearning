@@ -1,3 +1,4 @@
+
 ##
 # Deep Neural Network
 
@@ -136,3 +137,24 @@ Terminal 2L: ollama run phi3
 
 
   cat README.md | llm -s 'create code snippert for readme' >test1.md
+
+
+
+
+## Docker ollama
+docker pull ollama/ollama
+
+docker run -it \
+    --rm \
+    -v ollama:/root/.ollama \
+    -p 11434:11434 \
+    --name ollama \
+    ollama/ollama
+
+   docker exec -it ollama bash
+
+   docker pull python
+
+    ollama pull gemma:2b
+
+    
