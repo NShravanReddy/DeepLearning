@@ -38,7 +38,9 @@ Certainly! Here's a concise summary of why `_s` (or variables prefixed with a si
 CNN Done
 For unsupervised learning Auto encoders are used in Convolution neural networks
 
+restnet 
 
+cross-GPU parallelization
 ## 02-optimization-and-regularization
 
 | Concept         | Complete |
