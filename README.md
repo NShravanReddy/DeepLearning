@@ -156,4 +156,34 @@ docker run -it \
    apt-get install curl
 https://github.com/NShravanReddy/DeepLearning?tab=readme-ov-file#installation
   
-    
+
+
+
+## Perplexica 
+    mkdir -p ~/miniconda3
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+rm -rf ~/miniconda3/miniconda.sh
+
+~/miniconda3/bin/conda init bash
+~/miniconda3/bin/conda init zsh
+
+curl -fsSL https://ollama.com/install.sh | sh
+
+
+ollama start
+ollama pull llama3.1
+ollama run llama3.1
+
+ollama pull nomic-embed-text
+
+git clone https://github.com/ItzCrazyKns/Perplexica.git
+
+cd Perplexica
+
+mv sample.config.toml config.toml (rename)
+
+docker compose up -d
+
+now a window pop up to open port 4000
+
