@@ -186,4 +186,4 @@ mv sample.config.toml config.toml (rename)
 docker compose up -d
 
 now a window pop up to open port 4000
-
+docker stop $(docker ps -q)
