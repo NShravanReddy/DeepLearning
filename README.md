@@ -153,8 +153,7 @@ docker run -it \
 
    docker exec -it ollama bash
 
-   docker pull python
-
-    ollama pull gemma:2b
-
+   apt-get install curl
+https://github.com/NShravanReddy/DeepLearning?tab=readme-ov-file#installation
+  
     
