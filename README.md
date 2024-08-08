@@ -187,3 +187,38 @@ docker compose up -d
 
 now a window pop up to open port 4000
 docker stop $(docker ps -q)
+
+## [Using Inspect ai]('https://inspect.ai-safety-institute.org.uk/')
+
+pip install inspect-ai
+ pip install google-generativeai
+
+ export GOOGLE_API_KEY= [getkeyfrom]('https://aistudio.google.com/app/apikey')
+
+ nano theory_of_mind.py
+
+
+ from inspect_ai import Task, eval, task
+from inspect_ai.dataset import example_dataset
+from inspect_ai.scorer import model_graded_fact
+from inspect_ai.solver import (               
+  chain_of_thought, generate, self_critique   
+)                                             
+
+@task
+def theory_of_mind():
+    return Task(
+        dataset=example_dataset("theory_of_mind"),
+        plan=[
+          chain_of_thought(),
+          generate(),
+          self_critique()
+        ],
+        scorer=model_graded_fact()
+    )
+
+    inspect eval theory_of_mind.py --model google/gemini-1.0-pro
+
+    Damm success
+
+![processing](Screenshot 2024-08-08 at 4.34.53 PM.png)
