@@ -217,8 +217,10 @@ def theory_of_mind():
         scorer=model_graded_fact()
     )
 
+
+
     inspect eval theory_of_mind.py --model google/gemini-1.0-pro
 
-    Damm success
+    Damm success. but it took more than 25 minutes
 
-![processing](Screenshot 2024-08-08 at 4.34.53 PM.png)
+![processing](/Screenshot%202024-08-08%20at%204.34.53 PM.png)
