@@ -1,1 +1,5 @@
 Perplexica
+
+.env
+logs/
+__pycache__/
