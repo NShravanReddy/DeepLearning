@@ -3,4 +3,4 @@ Perplexica
 .env
 logs/
 __pycache__/
-nni/all-mpnet-base-v2
+
