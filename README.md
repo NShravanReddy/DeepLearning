@@ -73,6 +73,8 @@ gpt 4(cl100k base) has less tokens compared to gpt2
 
 ord('A')
 encodings are the way by which we can take the unicode text and store as binary data.
+
+[tiktoken]('https://github.com/openai/tiktoken')
 #### 2.LLMs jail break
 Why the LLM break if I ask it about "SolidGoldMagikarp"? Tokenization.
 ## Creating Custom Dataset
