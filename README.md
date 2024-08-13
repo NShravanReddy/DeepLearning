@@ -56,8 +56,25 @@ cross-GPU parallelization
 | early-stopping  |      |
 
 
+##### dropout 
+include stopping the training as soon as performance on a validation set starts to get worse, introducing weight penalties of various kinds such as L1 and L2 regularization and soft weight sharing (Nowlan and Hinton, 1992).
+
+A dropout network typically takes 2-3 times longer to train than a standard neural network of the same ar- chitecture. 
 
 
+
+#### 1. Tokenizer
+Tokenization is the process of translating string of texts into sequences of tokens and vice-versa.
+
+
+Ollama 2 We trained on 2 trillion tokens of data
+
+gpt 4(cl100k base) has less tokens compared to gpt2
+
+ord('A')
+encodings are the way by which we can take the unicode text and store as binary data.
+#### 2.LLMs jail break
+Why the LLM break if I ask it about "SolidGoldMagikarp"? Tokenization.
 ## Creating Custom Dataset
 
 
