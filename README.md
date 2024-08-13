@@ -77,6 +77,8 @@ encodings are the way by which we can take the unicode text and store as binary 
 [tiktoken]('https://github.com/openai/tiktoken')
 #### 2.LLMs jail break
 Why the LLM break if I ask it about "SolidGoldMagikarp"? Tokenization.
+
+gcp vm ssh lengthy process compared to aws
 ## Creating Custom Dataset
 
 
