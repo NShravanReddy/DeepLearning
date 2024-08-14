@@ -1,3 +1,12 @@
+  Reason #1: Over 80% of the data produced is unstructured!
+  Example: Social Media, Image, Video, Audio
+  Reason#2: LLM lacks Long-Term Memory
+  Vector DBs provide the ability to store & retrieve data for LLMs
+
+### vector embeddings
+like vector means 2d matrix
+
+
 Types of Vector Embeddings
 Word Embeddings:
 • Techniques: Word2 Vec, GloVe, FastText
