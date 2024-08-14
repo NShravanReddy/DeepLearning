@@ -22,6 +22,13 @@ Image Embeddings:
 • Purpose: Capture visual features for tasks like classification and object detection.
 
 
+#####
+Data type image, document, audio pass this through pre trained model that pre trained model and that pretriend model will prvide vector embeddings
+If there are millions of dcumets we need to index them amd store vector embeddings i database in an optimized way, 
+When the user provides the query it will conveted to vector ebdeddings by a pre trained model and that vector embedding will be sent into to the vector database to search for the matching vector embedding and it will provide the results. That result will be semantic 
+
+Provides the ability to compare multiple things (semantically) at the same time • Helps machine learning models remember past data better, making them more useful for search,recommendations, and text generation
+
 #### What is Vector databases?
 • A vector database indexes and stores vector embeddings, for fast search and optimized storage
 • Provides the ability to compare multiple things (semantically) at the same time
