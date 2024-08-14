@@ -247,3 +247,51 @@ def theory_of_mind():
     Damm success. but it took more than 25 minutes
 
 ![processing](/Screenshot%202024-08-08%20at%204.34.53 PM.png)
+
+
+
+# MLOPS
+  ## [Experiment tracking]('https://www.youtube.com/watch?v=MiA7LQin9c8&list=PL3MmuxUbc_hIUISrluw_A7wDSmfOhErJK')
+
+Experiment tracking is the process of keeping track of all the relevant information from an ML experiment which includes:
+
+source code
+Environment
+Data
+Model 
+Hyperparameters
+Metrics
+...
+
+why experiment tracking important?
+
+  1.Reproducibility
+  2.Organizatio
+  3.Optimization
+
+Like tracking in spreadsheets has 
+  1. Error prone
+  2.No standard format
+  3.Visiblity & Collaboration
+
+#### MLflow python package
+  Platform for the machine learning lifecycle
+Four modules
+   1.Tracking
+   2.Models
+   3.Model Registry
+   4.Projects
+#### Tracks 
+  1.Parameters
+  2.Metrics
+  3.Metadata
+  4.Artifacts
+  5.Models
+It also logs extra info
+  1.Source code
+  2.Version of the code
+  3.Start and endtime
+  4.Author
+
+  pip install mlflow
+git remote -v
