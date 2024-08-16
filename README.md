@@ -78,10 +78,17 @@ encodings are the way by which we can take the unicode text and store as binary 
 #### 2.LLMs jail break
 Why the LLM break if I ask it about "SolidGoldMagikarp"? Tokenization.
 
+regex and re
+
+###### [Tiktoken]('https://github.com/openai/tiktoken')
+
+It is taking the space and the character as one token 
+
 gcp vm ssh lengthy process compared to aws
 ## Creating Custom Dataset
 
-
+## [Sentence piece]('https://github.com/google/sentencepiece')
+ 
 ### LLms
 
 [Installing LLMs on the command line APPLICATIONS](https://parlance-labs.com/education/applications/simon_llm_cli/index.html)
