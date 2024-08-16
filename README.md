@@ -63,7 +63,7 @@ A dropout network typically takes 2-3 times longer to train than a standard neur
 
 
 
-#### 1. Tokenizer
+#### [1. Tokenizer]('https://colab.research.google.com/drive/1y0KnCFZvGVf_odSfcNAws6kcDD7HsI0L?usp=sharing#scrollTo=pkAPaUCXOhvW')
 Tokenization is the process of translating string of texts into sequences of tokens and vice-versa.
 
 
@@ -84,11 +84,27 @@ regex and re
 
 It is taking the space and the character as one token 
 
+
+
 gcp vm ssh lengthy process compared to aws
-## Creating Custom Dataset
+
 
 ## [Sentence piece]('https://github.com/google/sentencepiece')
  
+ Why can't LLM spell words? Tokenization.
+Why can't LLM do super simple string processing tasks like reversing a string? Tokenization.
+Why is LLM worse at non-English languages (e.g. Japanese)? Tokenization.
+Why is LLM bad at simple arithmetic? Tokenization.
+Why did GPT-2 have more than necessary trouble coding in Python? Tokenization.
+Why did my LLM abruptly halt when it sees the string "<|endoftext|>"? Tokenization.
+What is this weird warning I get about a "trailing whitespace"? Tokenization.
+Why the LLM break if I ask it about "SolidGoldMagikarp"? Tokenization.
+Why should I prefer to use YAML over JSON with LLMs? Tokenization.
+Why is LLM not actually end-to-end language modeling? Tokenization.
+What is the real root of suffering? Tokenization.
+
+## Creating Custom Dataset
+
 ### LLms
 
 [Installing LLMs on the command line APPLICATIONS](https://parlance-labs.com/education/applications/simon_llm_cli/index.html)
@@ -302,3 +318,6 @@ It also logs extra info
 
   pip install mlflow
 git remote -v
+
+
+
