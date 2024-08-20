@@ -84,6 +84,39 @@ class SiglipAttention(nn.Module):
         key_states=key_states.view(batch_size,seq_len,self.num_heads,self.head_dim).transpose(1,2)
         value_states=value_states.view(batch_size,seq_len,self.num_heads,self.head_dim).transpose(1,2)
         attn_weights=(torch.matmul(query_states,key_states.transpose(2,3))* self.scale)
+        if attn_weights.size()!=(batch_size, self.num_heads, seq_len, seq_len):
+            raise ValueError(
+        f"Attention weights should be of size {(batch_size, self. num _heads, seq_len, seq_len)}, but is"
+        f" {attn_weights.size()}"
+            )
+
+attn_weights: [Batch_Size, Num_Heads, Num_Patches, Num_Patches]
+attn weights = (nn.functional.softmaxattn_weights, dim=-1, dtype=torch.float32).to(query_states.dtype)
+
+attn_weights = nn.functional.dropout(attn_weights, p=self.dropout, training=self.training)
+attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype=torch.float32).to(query_states.dtype)
+       
+        attn_weights = nn.functional.dropout(attn_weights, p=self.dropout, training=self.training)
+        
+        attn_output = torch.matmul(attn_weights, value_states)
+
+        if attn_output.size() != (batch_size, self.num_heads, seq_len, self.head_dim):
+            raise ValueError(
+                f"`attn_output` should be of size {(batch_size, self.num_heads, seq_len, self.head_dim)}, but is"
+                f" {attn_output.size()}"
+            )
+        
+        attn_output = attn_output.transpose(1, 2).contiguous()
+
+        attn_output = attn_output.reshape(batch_size, seq_len, self.embed_dim)
+        
+        attn_output = self.out_proj(attn_output)
+
+        return attn_output, attn_weights
+
+
+
+        
 class SiglipMLP(nn.Module):
     def __init__(self,config):
         super().__init__()
@@ -114,6 +147,19 @@ class SiglipEncoderLayer(nn.Module):
         hidden_states=residual+hidden_states
 
     return hidden_states
+class SiglipEncoder(nn.Module):
+    def __init__(self,config:SiglipVisionConfig):
+        super().__init__()
+        self.config=config
+        self.layers=nn.ModuleList(
+            [SiglipEncoderLayer(config) for _ in range(config.num_hidden_layers)]
+        )
+    def forward(self,inputs_embeds:torch.Tensor)->torch.Tensor:
+        hidden_states=inputs_embeds
+        for encoder_layer in self.layers:
+            hidden_states=encoder_layer(hidden_states)
+        return hidden_states
+    
 class SiglipVisionTransformer(nn.Module):
     def __init__(self,config: SiglipVisionConfig):
         super().__init__()
@@ -139,7 +185,7 @@ class SiglipVisionModel(nn.Module):
         self.vision_model=SiglipVisionTransformer(config)
     
     def forward(self,pixel_values)-> Tuple:
+        #[Batch_size,Channels,Height,width]
         return self.vision_model(pixel_values=pixel_values)
 
 
-1.58 min
