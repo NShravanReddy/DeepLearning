@@ -33,3 +33,5 @@ Provides the ability to compare multiple things (semantically) at the same time 
 • A vector database indexes and stores vector embeddings, for fast search and optimized storage
 • Provides the ability to compare multiple things (semantically) at the same time
 • Helps machine learning models remember past data better, making them more useful for search, recommendations, and text generation
+
+
