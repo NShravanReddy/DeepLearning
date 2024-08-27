@@ -132,13 +132,13 @@ llm models default
 gpt-4o-mini
 
 ### Installing Googles palm llm
-llm install llm-palm
+llm install llm-gemini
 
-llm keys set palm
+llm keys set gemini
 Enter key: https://aistudio.google.com/app/apikey
 
 ### Changing the default  model to palm
-llm models default palm
+llm models default gemini
 
 ### plugin adds a model called palm
 
