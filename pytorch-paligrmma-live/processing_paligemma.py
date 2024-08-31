@@ -51,5 +51,12 @@ class PaliGemmaProcessor:
 
             for prompt in text
         ]
-        inputs=self.tokenizer
-2.30 min
+        inputs=self.tokenizer(
+            input_strings,
+            return_tensors="pt",
+            padding=padding,
+            truncation=truncation,
+        )
+        return_data={"pixel_values":pixel_values,**inputs}
+
+        return return_data
