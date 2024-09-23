@@ -319,5 +319,15 @@ It also logs extra info
   pip install mlflow
 git remote -v
 
+## Large Language Model
 
+#### Prompt engineering
 
+Techniques
+1.Few shot prompting
+
+Examples will be given like
+english to telugu translation
+then the actual task will be given at end of prompt
+
+2. Chain-of-thought reasoning
