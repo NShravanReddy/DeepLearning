@@ -321,7 +321,7 @@ git remote -v
 
 ## Large Language Model
 
-#### [Prompt engineering] ('https://www.promptingguide.ai')
+#### [Prompt engineering]('https://www.promptingguide.ai')
 
 Techniques
 1.Few shot prompting
