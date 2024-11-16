@@ -331,3 +331,12 @@ english to telugu translation
 then the actual task will be given at end of prompt
 
 2. Chain-of-thought reasoning
+
+#### Fine tuning
+
+Fine-tuning when you’ve already deployed LLMs in prod
+1. Unless you can't hit your quality target
+2.Latency target
+3.Cost target
+
+1.Choosing a Base Model
