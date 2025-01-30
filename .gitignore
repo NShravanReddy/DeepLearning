@@ -5,3 +5,4 @@ logs/
 __pycache__/
 
 nni/all-mpnet-base-v2
+.DS_Store

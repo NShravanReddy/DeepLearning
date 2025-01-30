@@ -1,0 +1,1 @@
+[Satvick model](https://github.com/NShravanReddy/SatvickRecipe/blob/master/satvick_Copy_of_Llama_3_1_8b_%2B_Unsloth_2x_faster_finetuning.ipynb)
