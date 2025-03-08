@@ -3,7 +3,7 @@ name: Deploy Jekyll Site
 on:
   push:
     branches:
-      - main  # Change to your default branch if different
+      - main  # Change if your default branch is different
 
 jobs:
   build-and-deploy:
@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
+        with:
+          submodules: true  # Fixes "No URL found for submodule" error
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -19,15 +21,18 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
 
-      - name: Install Jekyll and Build
+      - name: Install Jekyll and Dependencies
         run: |
-          gem install bundler jekyll
-          cd docs  # Change to your Jekyll site folder
-          bundle install || bundle update
-          jekyll build -d _site
+          cd docs  # Move into the 'docs' folder where Jekyll files exist
+          bundle install || bundle update  # Uses Gemfile inside 'docs/'
+
+      - name: Build Jekyll Site
+        run: |
+          cd docs
+          jekyll build -d ../_site  # Builds site into root '_site'
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/_site
+          publish_dir: _site  # The built Jekyll site
