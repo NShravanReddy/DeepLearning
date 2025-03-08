@@ -1,9 +1,8 @@
 title: My Jekyll Site
 description: A GitHub Pages site powered by Jekyll
-baseurl: ""  # No subdirectory needed
-url: "https://github.com/NShravanReddy/DeepLearning/"  # Replace with your repo URL
+baseurl: "/docs"  # Since it's inside 'docs/' folder
+url: "https://github.com/NShravanReddy/DeepLearning/"  # Your repo URL
 theme: minima
-
 
 plugins:
   - jekyll-feed
