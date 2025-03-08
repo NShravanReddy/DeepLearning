@@ -23,16 +23,16 @@ jobs:
 
       - name: Install Jekyll and Dependencies
         run: |
-          cd docs  # Move into the 'docs' folder where Jekyll files exist
+          cd docs  # Move into 'docs' folder
           bundle install || bundle update  # Uses Gemfile inside 'docs/'
 
       - name: Build Jekyll Site
         run: |
           cd docs
-          jekyll build -d ../_site  # Builds site into root '_site'
+          jekyll build  # Builds site inside docs/_site
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: _site  # The built Jekyll site
+          publish_dir: docs/_site  # Corrected path
