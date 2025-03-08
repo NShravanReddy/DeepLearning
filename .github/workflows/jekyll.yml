@@ -13,7 +13,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
         with:
-          submodules: true  # Fixes "No URL found for submodule" error
+          submodules: false  # Fixes "No URL found for submodule" error
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
