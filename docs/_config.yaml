@@ -1,6 +1,9 @@
-- name: Install Jekyll and Dependencies
-  run: |
-    gem install bundler jekyll
-    bundle install || bundle update
-  working-directory: docs  # Set this if your site is inside the "docs/" folder
+title: My Jekyll Site
+description: A GitHub Pages site powered by Jekyll
+baseurl: ""  # No subdirectory needed
+url: "https://github.com/NShravanReddy/DeepLearning/"  # Replace with your repo URL
 
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
