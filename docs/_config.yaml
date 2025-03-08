@@ -1,0 +1,5 @@
+title: My Jekyll Site
+description: A GitHub Pages site built with Jekyll and GitHub Actions
+theme: minima
+plugins:
+  - jekyll-feed
