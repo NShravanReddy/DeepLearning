@@ -3,7 +3,7 @@ description: A GitHub Pages site powered by Jekyll
 baseurl: ""  # No subdirectory needed
 url: "https://github.com/NShravanReddy/DeepLearning/"  # Replace with your repo URL
 
-theme: minima
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap
