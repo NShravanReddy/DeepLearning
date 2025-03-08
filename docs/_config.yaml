@@ -1,5 +1,6 @@
-title: My Jekyll Site
-description: A GitHub Pages site built with Jekyll and GitHub Actions
-theme: minima
-plugins:
-  - jekyll-feed
+- name: Install Jekyll and Dependencies
+  run: |
+    gem install bundler jekyll
+    bundle install || bundle update
+  working-directory: docs  # Set this if your site is inside the "docs/" folder
+
