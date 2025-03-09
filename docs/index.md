@@ -2,7 +2,7 @@
 layout: default
 title: Welcome
 ---
-# Welcome to My Deep Learning Blog
+# Welcome to My Learning Blog
 
 ## Blog Posts
 
