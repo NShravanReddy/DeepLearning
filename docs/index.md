@@ -2,4 +2,8 @@
 layout: default
 title: Welcome
 ---
-# Hello, GitHub Actions!
+# Welcome to My Deep Learning Blog
+
+## Blog Posts
+
+- [Learning Triton](./_posts/2025-03-09-triton.md)
