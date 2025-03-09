@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nshravanreddy.github.io/DeepLearning/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nshravanreddy.github.io/DeepLearning/" rel="alternate" type="text/html" /><updated>2025-03-09T11:56:35+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/feed.xml</id><title type="html">AI ML DL</title><subtitle>A GitHub Pages site powered by Jekyll</subtitle><entry><title type="html">Learning Triton</title><link href="https://nshravanreddy.github.io/DeepLearning/2025/03/09/triton.html" rel="alternate" type="text/html" title="Learning Triton" /><published>2025-03-09T00:00:00+00:00</published><updated>2025-03-09T00:00:00+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/2025/03/09/triton</id><content type="html" xml:base="https://nshravanreddy.github.io/DeepLearning/2025/03/09/triton.html"><![CDATA[<p>Here I will be learning Triton.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nshravanreddy.github.io/DeepLearning/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nshravanreddy.github.io/DeepLearning/" rel="alternate" type="text/html" /><updated>2025-03-09T11:59:43+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/feed.xml</id><title type="html">AI ML DL</title><subtitle>A GitHub Pages site powered by Jekyll</subtitle><entry><title type="html">Day 2 - Learning Triton</title><link href="https://nshravanreddy.github.io/DeepLearning/2025/03/09/triton-day2.html" rel="alternate" type="text/html" title="Day 2 - Learning Triton" /><published>2025-03-09T00:00:00+00:00</published><updated>2025-03-09T00:00:00+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/2025/03/09/triton-day2</id><content type="html" xml:base="https://nshravanreddy.github.io/DeepLearning/2025/03/09/triton-day2.html"><![CDATA[<p>Here I will be learning Triton.</p>
+
+<p>There are two functions
+One is kernal  @triton.jit
+other is helper  call kernal[grid]</p>
+
+<ul>
+  <li>
+    <h3 id="links">Links</h3>
+  </li>
+  <li><a href="https://colab.research.google.com/github/NShravanReddy/DeepLearning/blob/main/triton/Trition_constant_add.ipynb">Colab Implementation of Constant Addition</a></li>
+  <li><a href="https://github.com/openai/triton">Triton GitHub Repository</a></li>
+  <li><a href="https://triton-lang.org/">Triton Documentation</a></li>
+  <li><a href="https://github.com/rkinas/triton-resources/tree/main/daily_challange/day0">Daily Challenge Day 0</a></li>
+</ul>]]></content><author><name></name></author><summary type="html"><![CDATA[Here I will be learning Triton.]]></summary></entry><entry><title type="html">Learning Triton</title><link href="https://nshravanreddy.github.io/DeepLearning/2025/03/08/triton-day1.html" rel="alternate" type="text/html" title="Learning Triton" /><published>2025-03-08T00:00:00+00:00</published><updated>2025-03-08T00:00:00+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/2025/03/08/triton-day1</id><content type="html" xml:base="https://nshravanreddy.github.io/DeepLearning/2025/03/08/triton-day1.html"><![CDATA[<p>Here I will be learning Triton.</p>
 <h1 id="day-1">Day 1</h1>
 <h3 id="links">Links</h3>
 <ul>
