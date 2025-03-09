@@ -2,7 +2,7 @@ import requests
 import json
 
 # Your PaLM API key
-api_key = 'AIzaSyDl1IdM-vqwgKKC6Z1dub1TcKwTzoQXl3Q'
+api_key = ''
 
 # Endpoint for the PaLM API (replace with the correct URL)
 url = 'https://your-palm-api-endpoint/v1/predict'  # Adjust as needed
