@@ -1,1 +1,1 @@
-Sitemap: https://github.com/NShravanReddy/DeepLearning.git/docs/sitemap.xml
+Sitemap: https://nshravanreddy.github.io/DeepLearning/sitemap.xml
