@@ -12,3 +12,4 @@ title: Welcome
 -  [Day 4 - Learning Triton](./_posts/2025-03-11-triton-day4.md)
 -  [Day 5 - Learning Triton](./_posts/2025-03-12-triton-day5.md)
 -  [Day 6 - Learning Triton](./_posts/2025-03-13-triton-day6.md)
+-  [Day 7 - Learning Triton](./_posts/2025-03-14-triton-day7.md)

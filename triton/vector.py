@@ -15,8 +15,8 @@ def add_kernal(x_ptr,
     offsets= block_start + tl.arange(0, BLOCK_SIZE)
     mask = offsets < n_elements
 
-    x=tl.load(x_ptr + offsets, mask =mask)
-    y=tl.load(y_ptr + offsets, mask= mask)
+    x=tl.load(x_ptr + offsets, mask =mask) #loading to SRAM/l2 cache
+    y=tl.load(y_ptr + offsets, mask= mask) #loading to SRAM/l2 cache
     output = x+y
     tl.store(output_ptr + offsets, output, mask=mask)
 
