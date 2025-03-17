@@ -12,6 +12,7 @@ def l_r_k(x_ptr,
           N0,
           BLOCK_SIZE:tl.constexpr):
   
+
   pid=tl.program_id(axis=0)
   block_start= BLOCK_SIZE * pid
   offsets = block_start + tl.arange(0, BLOCK_SIZE)
@@ -29,6 +30,18 @@ def l_r_k_h(x:torch.Tensor,alpha:float=1, BLOCK_SIZE=1024)->torch.Tensor:
   assert x.is_cuda and y.is_cuda
   l_r_k[grid](x,y,alpha,N0,BLOCK_SIZE=BLOCK_SIZE)
   return y,alpha
+
+def benchmark(func, *args, n_warmup=10, n_iters=100):
+    for _ in range(n_warmup):
+        func(*args)
+    torch.cuda.synchronize()
+    start = time.perf_counter()
+    for _ in range(n_iters):
+        func(*args)
+    torch.cuda.synchronize()
+    end = time.perf_counter()
+    return (end - start) / n_iters * 1000
+
 
 if __name__=='__main__':
   N=1024*1024
