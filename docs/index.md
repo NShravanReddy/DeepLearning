@@ -6,7 +6,7 @@ title: Welcome
 
 ## Learning Triton
 
-- [Day 1 - Learning Triton](./_posts/2025-03-08-day1.md)
+- [Day 1 - Learning Triton](./_posts/2025-03-08-triton-day1.md)
 - [Day 2 - Learning Triton](./_posts/2025-03-09-triton-day2.md)
 - [Day 3 - Learning Triton](./_posts/2025-03-10-triton-day3.md)
 -  [Day 4 - Learning Triton](./_posts/2025-03-11-triton-day4.md)
@@ -18,3 +18,4 @@ title: Welcome
 - [Day 10 - Learning Triton](./_posts/2025-03-17-triton-day10.md)
 - [Day 11 - Learning Triton](./_posts/2025-03-18-triton-day11.md)
 - [Day 12 - Learning Triton](./_posts/2025-03-19-triton-day12.md)
+- [Day 13 - Learning Triton](./_posts/2025-03-19-triton-day13.md)
