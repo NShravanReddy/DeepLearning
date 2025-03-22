@@ -18,4 +18,5 @@ title: Welcome
 - [Day 10 - Learning Triton](./_posts/2025-03-17-triton-day10.md)
 - [Day 11 - Learning Triton](./_posts/2025-03-18-triton-day11.md)
 - [Day 12 - Learning Triton](./_posts/2025-03-19-triton-day12.md)
-- [Day 13 - Learning Triton](./_posts/2025-03-19-triton-day13.md)
+- [Day 13 - Learning Triton](./_posts/2025-03-20-triton-day13.md)
+- [Day 14 - Learning Triton](./_posts/2025-03-22-triton-day14.md)
