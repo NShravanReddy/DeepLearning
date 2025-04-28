@@ -1,0 +1,46 @@
+# t5 by Google Research
+
+t5 means text to text transfer transformer
+
+Dataset used is Common Crawl's web extracted text and made some transformations and changed name as Colossal Clean Crawled Corpus(or C4 for short)
+
+# Model
+standard encoder-decoder transformer
+
+Similar to size and configuration to Bert base
+
+Encoder-decoder blocks =12
+dff=3072
+ReLU non linearity and dense layer
+d kv= 64
+heads = 12
+d_model = 768
+regularization dropout=0.1
+parameters = 220 million( twice as bert base )
+
+
+# Training
+pre-train model 2**19=534,288 steps on C4 then fine-tuning
+seq_len=512
+batch_size=128
+tokens=65,536
+
+# Pre-Training
+invserse square root 1/math.sqrt(max(n,k)) for learning_rate
+learning_rate=0.01
+
+#Fine tuning
+batch_size=128
+seq_len=512
+learning_rate=0.01
+save_checkpoints=5000
+
+Sentencepiece to encode text
+10 parts mixture of 10 parts
+of English C4 data with 1 part each of data classified as German, French or Romanian.
+
+
+
+
+
+
