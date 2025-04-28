@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nshravanreddy.github.io/DeepLearning/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nshravanreddy.github.io/DeepLearning/" rel="alternate" type="text/html" /><updated>2025-04-10T15:53:02+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/feed.xml</id><title type="html">AI ML DL</title><subtitle>A GitHub Pages site powered by Jekyll</subtitle><entry><title type="html">Day 19 - Learning Triton</title><link href="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/04/triton-day19.html" rel="alternate" type="text/html" title="Day 19 - Learning Triton" /><published>2025-04-04T00:00:00+00:00</published><updated>2025-04-04T00:00:00+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/04/triton-day19</id><content type="html" xml:base="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/04/triton-day19.html"><![CDATA[<h1 id="readme">README</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://nshravanreddy.github.io/DeepLearning/feed.xml" rel="self" type="application/atom+xml" /><link href="https://nshravanreddy.github.io/DeepLearning/" rel="alternate" type="text/html" /><updated>2025-04-28T15:40:20+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/feed.xml</id><title type="html">AI ML DL</title><subtitle>A GitHub Pages site powered by Jekyll</subtitle><entry><title type="html">Day 19 - Learning Triton</title><link href="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/28/triton.html" rel="alternate" type="text/html" title="Day 19 - Learning Triton" /><published>2025-04-28T00:00:00+00:00</published><updated>2025-04-28T00:00:00+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/28/triton</id><content type="html" xml:base="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/28/triton.html"><![CDATA[<h1 id="readme">README</h1>
+
+<p>This README file contains information about the activities and implementations for <strong>April 28, 2025</strong>.</p>
+
+<p>Here debugging the values passed into kernel</p>
+
+<h3 id="key-links">Key Links</h3>
+<ul>
+  <li><a href="https://colab.research.google.com/drive/1801LDs1_dH_ocO__n2KPpGnPUmq4g8z7?usp=sharing">Colab Implementation</a></li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[README]]></summary></entry><entry><title type="html">Day 19 - Learning Triton</title><link href="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/04/triton-day19-copy.html" rel="alternate" type="text/html" title="Day 19 - Learning Triton" /><published>2025-04-04T00:00:00+00:00</published><updated>2025-04-04T00:00:00+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/04/triton-day19%20copy</id><content type="html" xml:base="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/04/triton-day19-copy.html"><![CDATA[<h1 id="readme">README</h1>
+<p>gpt2-custom_triton_gelu_patching</p>
+
+<p>This README file contains information about the activities and implementations for <strong>April 4, 2025</strong>.</p>
+
+<h3 id="key-links">Key Links</h3>
+<ul>
+  <li><a href="https://colab.research.google.com/drive/1YgcKbh9Omsepl1JgfBT2o0LCVaMyRWH3?usp=sharing">Colab Implementation</a></li>
+</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[README gpt2-custom_triton_gelu_patching]]></summary></entry><entry><title type="html">Day 19 - Learning Triton</title><link href="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/04/triton-day19.html" rel="alternate" type="text/html" title="Day 19 - Learning Triton" /><published>2025-04-04T00:00:00+00:00</published><updated>2025-04-04T00:00:00+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/04/triton-day19</id><content type="html" xml:base="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/04/04/triton-day19.html"><![CDATA[<h1 id="readme">README</h1>
 <p>gpt2-custom_triton_gelu_patching</p>
 
 <p>This README file contains information about the activities and implementations for <strong>April 4, 2025</strong>.</p>
@@ -57,22 +74,4 @@ Here I will be learning Triton.</p>
   <li><a href="https://pytorch.org/tutorials/recipes/torch_compile_user_defined_triton_kernel_tutorial.html">PyTorch Triton Kernel Tutorial</a></li>
   <li><a href="https://colab.research.google.com/drive/1_iy8JUPTiBiCRwGpF_rN1FWp_rqPTO5t?usp=sharing">Colab Implementation</a></li>
   <li><a href="https://triton-lang.org/">Triton Documentation</a></li>
-</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Here I will be learning Triton.]]></summary></entry><entry><title type="html">Day 11 - Learning Triton</title><link href="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/03/18/triton-day11.html" rel="alternate" type="text/html" title="Day 11 - Learning Triton" /><published>2025-03-18T00:00:00+00:00</published><updated>2025-03-18T00:00:00+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/03/18/triton-day11</id><content type="html" xml:base="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/03/18/triton-day11.html"><![CDATA[<p>Here I will be learning Triton.</p>
-
-<h3 id="links">Links</h3>
-<ul>
-  <li><a href="https://github.com/NShravanReddy/DeepLearning/blob/main/triton/tanh.py">Tanh Python Script</a></li>
-  <li><a href="https://triton-lang.org/">Triton Documentation</a></li>
-  <li><a href="https://colab.research.google.com/drive/1AuqHq5xq1bC6T9IGuOKs0RCIjE9Csqvu?usp=sharing">Colab Implementation</a></li>
-  <li><a href="https://github.com/dtunai/triton-activations/blob/main/triton_activations/functions.py">Triton Activations - Functions</a></li>
-  <li><a href="https://github.com/dtunai/triton-activations/blob/main/triton_activations/activations.py">Triton Activations - Activations</a></li>
-</ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Here I will be learning Triton.]]></summary></entry><entry><title type="html">Day 10 - Learning Triton</title><link href="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/03/17/triton-day10.html" rel="alternate" type="text/html" title="Day 10 - Learning Triton" /><published>2025-03-17T00:00:00+00:00</published><updated>2025-03-17T00:00:00+00:00</updated><id>https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/03/17/triton-day10</id><content type="html" xml:base="https://nshravanreddy.github.io/DeepLearning/jekyll/update/2025/03/17/triton-day10.html"><![CDATA[<p>Here I will be learning Triton.</p>
-
-<h3 id="links">Links</h3>
-<ul>
-  <li><a href="https://github.com/NShravanReddy/DeepLearning/blob/main/triton/sigmoid.py">Sigmoid Python Script</a></li>
-  <li><a href="https://triton-lang.org/">Triton Documentation</a></li>
-  <li><a href="https://colab.research.google.com/drive/102hr8gHaj3oRQHnC9DEyQhMwKGzBzDgx?usp=sharing">Colab Implementation</a></li>
-  <li><a href="https://github.com/dtunai/triton-activations/blob/main/triton_activations/functions.py">Triton Activations - Functions</a></li>
-  <li><a href="https://github.com/dtunai/triton-activations/blob/main/triton_activations/activations.py">Triton Activations - Activations</a></li>
 </ul>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Here I will be learning Triton.]]></summary></entry></feed>
